@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.title span {
+    left: -10px;
+    position: relative;
+}
+
+.title img {
+    position: relative;
+    right: -20px;
+}
+
+.app_container.row {
+    height: 50vh;
+
+}
+
+.app_container .col-sm-4:hover h4 {
+    font-size: 23   px;
+    transform: perspective(1px) scale(1.1)
+}
+
+.app_container .col-sm-4 h4 {
+    transition: 0.5s;
+}
+
+.app_container div a {
+    text-decoration: none;
+}
+
+div.app_link{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s;
+}   
+
+i.fa.fa-file-excel-o {
+    font-size: 96px;
+    margin-top: 14%;
+}
+
+.loading_data {
+    position: fixed;
+    z-index: 999;
+    height: 100vh;
+    width: 100vw;
+    left: 0;
+    background: #f9f9f994;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading_container {
+    position: absolute;
+    top: 20%;
+}
+
+.display_hidden{
+	display: none;
+}
